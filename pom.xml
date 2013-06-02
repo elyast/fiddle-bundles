@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.elyast.bundles</groupId>
+	<artifactId>parent</artifactId>
+	<version>0.0.1</version>
+	<packaging>pom</packaging>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<scala.version>2.10.1</scala.version>
+	</properties>
+	<repositories>	
+		<repository>
+			<id>com.springsource.repository.bundles.release</id>
+			<name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
+			<url>http://repository.springsource.com/maven/bundles/release</url>
+		</repository>
+		<repository>
+			<id>com.springsource.repository.bundles.external</id>
+			<name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
+			<url>http://repository.springsource.com/maven/bundles/external</url>
+		</repository>
+		<repository>
+			<id>oss</id>
+			<name>oss</name>
+			<url>http://oss.sonatype.org/content/repositories/releases/</url>
+		</repository>
+		<repository>
+			<id>typesafe</id>
+			<name>Typesafe Repository</name>
+			<url>http://repo.typesafe.com/typesafe/releases/</url>
+		</repository>		
+	</repositories>
+	<modules>
+		<module>bundle.parent</module>
+		<module>source.bundle.parent</module>
+		<module>org.scala-lang.scala-library.source</module>
+	</modules>
+
+</project>
