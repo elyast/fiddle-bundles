@@ -12,12 +12,6 @@
     <github.global.oauth2Token>${env.TOKEN}</github.global.oauth2Token>    
 	</properties>
 
-  <scm>
-    <url>https://github.com/elyast/bundles</url>
-    <connection>scm:git:git://https://github.com/elyast/bundles.git</connection>
-    <developerConnection>scm:git:git@github.com:elyast/bundles.git</developerConnection>
-  </scm>
-
 	<repositories>	
 		<repository>
 			<id>com.springsource.repository.bundles.release</id>
@@ -67,6 +61,8 @@
               <includes><include>**/*</include></includes>    
               <path>maven2</path>
               <merge>true</merge>
+              <repositoryOwner>elyast</repositoryOwner>
+              <repositoryName>elyast.github.com</repositoryName>
           </configuration>
           <executions>
             <execution>
