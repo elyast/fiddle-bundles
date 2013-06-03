@@ -1,7 +1,13 @@
 language: scala
+
+env:
+   global:
+       - secure: "ATb5P2lfmradJeY4x99MxjntY4/l5PWnqDaZLJY5GvUmuKIe2gP4aJMM7hOU\nFTuxBcy/pNoItuXAbMaN7ybv4kY09YKZdHTmKMmZ6GrObFFN55EaM2n3NG0A\nKPw2GnBB/17D5UbSZIMlqqP9yS62A+2XtScHj4iurWGtuDHdGoE="
+
 scala:
    - 2.10.1
 jdk:
   - openjdk7
+
 script: mvn install  
-after_script: mvn deploy
+after_success: mvn deploy

@@ -8,8 +8,15 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<scala.version>2.10.1</scala.version>
-    <github.global.server>github</github.global.server>
+    <github.global.oauth2Token>${env.TOKEN}</github.global.oauth2Token>
 	</properties>
+
+  <scm>
+    <url>https://github.com/elyast/bundles</url>
+    <connection>scm:git:git://https://github.com/elyast/bundles.git</connection>
+    <developerConnection>scm:git:git@github.com:elyast/bundles.git</developerConnection>
+  </scm>
+
   <distributionManagement>
     <repository>
         <id>github</id>
