@@ -7,8 +7,8 @@ jdk:
 after_success: mvn deploy
 env:
   global:
-    secure: ! 'LJwQjPUR4DVY8Qeht6PVubsqTIytquWcoaT50Fcs+wm8o1ceZyKUk641zbz+
+    secure: ! 'Ru2spYOxE+MVWCFc1Fcu0kVmt0oJBIMpoSpW3/mSwAOIY1icIXZnsPMK02on
 
-      V2LYvYdfFQQpOtAdj8OyL9SN/D9l601xGifdBkylh5N9SVA+yN7xTXq8/aL1
+      lfO6jYXi7/O017aqb6GAOMthIJOfpVUpd200I1PGjgfKJWmge/Q5Te789OJ1
 
-      vuvJBb2cNVXIL5iG0N3wNfRTiSXqyalErZuOIxPQ9omlLHB71Nk='
+      OClnlej5VJh2q45kpRgShw5ZJuDXrk2vKFzoTc1xjL+wYQrGr9s='
