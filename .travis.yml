@@ -1,17 +1,14 @@
+---
 language: java
-
-# define the $TOKEN environment variable with OAuth2 Token for GitHub
+install: mvn --version
+script: mvn -q clean verify
+jdk:
+- openjdk7
+after_success: mvn deploy
 env:
   global:
-      - secure: "ATb5P2lfmradJeY4x99MxjntY4/l5PWnqDaZLJY5GvUmuKIe2gP4aJMM7hOU\nFTuxBcy/pNoItuXAbMaN7ybv4kY09YKZdHTmKMmZ6GrObFFN55EaM2n3NG0A\nKPw2GnBB/17D5UbSZIMlqqP9yS62A+2XtScHj4iurWGtuDHdGoE="
+    secure: ! 'LJwQjPUR4DVY8Qeht6PVubsqTIytquWcoaT50Fcs+wm8o1ceZyKUk641zbz+
 
-# No need to run mvn install, so we use this step to print env details instead
-install: mvn --version
+      V2LYvYdfFQQpOtAdj8OyL9SN/D9l601xGifdBkylh5N9SVA+yN7xTXq8/aL1
 
-script: mvn -q clean verify
-
-jdk:
-  - openjdk7
-
-after_success: 
-  - mvn deploy
+      vuvJBb2cNVXIL5iG0N3wNfRTiSXqyalErZuOIxPQ9omlLHB71Nk='
