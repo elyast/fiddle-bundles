@@ -2,14 +2,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.elyast.bundles</groupId>
-	<artifactId>parent</artifactId>
+	<artifactId>fiddle-bundles</artifactId>
 	<version>0.0.1</version>
 	<packaging>pom</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<scala.version>2.10.1</scala.version>
-    <github.global.userName>elyast</github.global.userName>
-    <github.global.oauth2Token>${env.TOKEN}</github.global.oauth2Token>    
+    	<github.global.userName>elyast</github.global.userName>
+    	<github.global.oauth2Token>${env.TOKEN}</github.global.oauth2Token>    
 	</properties>
 
 	<repositories>	
@@ -38,6 +37,12 @@
 		<module>bundle.parent</module>
 		<module>source.bundle.parent</module>
 		<module>org.scala-lang.scala-library.source</module>
+		<module>org.json4s</module>
+        <module>org.scala-lang.scalap</module>
+        <module>net.databinder.unfiltered</module>
+        <module>net.databinder.dispatch</module>
+        <module>com.thoughtworks.paranamer</module>
+        <module>io.netty</module>
 	</modules>
 
   <build>

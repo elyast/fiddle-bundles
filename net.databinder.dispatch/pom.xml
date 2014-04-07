@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>bundle.parent</artifactId>
+        <groupId>org.elyast.bundles</groupId>
+        <version>0.0.1</version>
+        <relativePath>../bundle.parent/pom.xml</relativePath>
+    </parent>
+	<artifactId>net.databinder.dispatch_2.10</artifactId>
+	<version>0.11.0</version>
+	<packaging>bundle</packaging>
+	<name>${bundle.symbolicName}</name>
+
+	<properties>
+		<wrapped.version>0.11.0</wrapped.version>
+		<wrapped.artifactId>dispatch-core_2.10</wrapped.artifactId>
+		<bundle.symbolicName>net.databinder.dispatch</bundle.symbolicName>
+		<wrapped.groupId>net.databinder.dispatch</wrapped.groupId>
+        <inline.enabled>false</inline.enabled>
+	</properties>
+
+	<dependencies>
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>dispatch-json4s-native_2.10</artifactId>
+            <version>${wrapped.version}</version>
+        </dependency>
+	</dependencies>
+</project>

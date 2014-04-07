@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>bundle.parent</artifactId>
+        <groupId>org.elyast.bundles</groupId>
+        <version>0.0.1</version>
+        <relativePath>../bundle.parent/pom.xml</relativePath>
+    </parent>
+	<artifactId>io.netty</artifactId>
+	<version>3.6.8.Final</version>
+	<packaging>bundle</packaging>
+	<name>${bundle.symbolicName}</name>
+
+	<repositories>
+		<repository>
+			<id>oss</id>
+			<name>oss</name>
+			<url>http://oss.sonatype.org/content/repositories/releases/</url>
+		</repository>		
+	</repositories>
+
+	<properties>
+		<wrapped.version>3.6.8.Final</wrapped.version>
+		<wrapped.artifactId>netty</wrapped.artifactId>
+		<bundle.symbolicName>io.netty</bundle.symbolicName>
+		<wrapped.groupId>io.netty</wrapped.groupId>
+        <inline.enabled>false</inline.enabled>        
+	</properties>
+</project>
