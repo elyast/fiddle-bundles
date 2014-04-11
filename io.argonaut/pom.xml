@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>bundle.parent</artifactId>
+        <groupId>org.elyast.bundles</groupId>
+        <version>0.0.1</version>
+        <relativePath>../bundle.parent/pom.xml</relativePath>
+    </parent>
+    <artifactId>io.argonaut_2.10</artifactId>
+    <version>6.0.3</version>
+    <packaging>bundle</packaging>
+    <name>${bundle.symbolicName}</name>
+
+    <properties>
+        <wrapped.version>6.0.3</wrapped.version>
+        <wrapped.artifactId>argonaut_2.10</wrapped.artifactId>
+        <bundle.symbolicName>io.argonaut</bundle.symbolicName>
+        <wrapped.groupId>io.argonaut</wrapped.groupId>
+        <inline.enabled>false</inline.enabled>        
+    </properties>
+
+</project>

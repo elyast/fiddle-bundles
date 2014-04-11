@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>source.bundle.parent</artifactId>
+		<groupId>org.elyast.bundles</groupId>
+		<version>0.0.1</version>
+		<relativePath>../source.bundle.parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>com.google.protobuf.source</artifactId>
+	<version>2.5.0</version>
+	<properties>
+		<wrapped.version>2.5.0</wrapped.version>
+		<wrapped.artifactId>protobuf-java</wrapped.artifactId>
+		<bundle.symbolicName>com.google.protobuf</bundle.symbolicName>
+		<wrapped.groupId>com.google.protobuf</wrapped.groupId>
+	</properties>
+</project>

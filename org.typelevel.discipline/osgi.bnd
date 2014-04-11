@@ -1,0 +1,2 @@
+Import-Package: org.jboss.logging;resolution:=optional, \
+	org.jboss.marshalling;resolution:=optional, *

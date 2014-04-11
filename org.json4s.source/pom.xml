@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>source.bundle.parent</artifactId>
+		<groupId>org.elyast.bundles</groupId>
+		<version>0.0.1</version>
+		<relativePath>../source.bundle.parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>org.json4s_2.10.source</artifactId>
+	<version>3.2.8</version>
+	<properties>
+		<wrapped.version>3.2.8</wrapped.version>
+		<wrapped.artifactId>json4s-core_2.10</wrapped.artifactId>
+		<bundle.symbolicName>org.json4s</bundle.symbolicName>
+		<wrapped.groupId>org.json4s</wrapped.groupId>
+	</properties>
+    <dependencies>
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>json4s-native_2.10</artifactId>
+            <version>${wrapped.version}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>json4s-ast_2.10</artifactId>
+            <version>${wrapped.version}</version>
+            <classifier>sources</classifier>
+        </dependency>   
+    </dependencies>    
+</project>

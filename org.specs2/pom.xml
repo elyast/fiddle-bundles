@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>bundle.parent</artifactId>
+        <groupId>org.elyast.bundles</groupId>
+        <version>0.0.1</version>
+        <relativePath>../bundle.parent/pom.xml</relativePath>
+    </parent>
+    <artifactId>org.specs2_2.10</artifactId>
+    <version>2.3.11</version>
+    <packaging>bundle</packaging>
+    <name>${bundle.symbolicName}</name>
+
+    <properties>
+        <wrapped.version>2.3.11</wrapped.version>
+        <wrapped.artifactId>specs2_2.10</wrapped.artifactId>
+        <bundle.symbolicName>org.specs2</bundle.symbolicName>
+        <wrapped.groupId>org.specs2</wrapped.groupId>
+        <inline.enabled>false</inline.enabled>        
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>classycle</artifactId>
+            <version>1.4.3</version>
+        </dependency>
+    </dependencies>
+
+</project>

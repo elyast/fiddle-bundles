@@ -37,12 +37,56 @@
 		<module>bundle.parent</module>
 		<module>source.bundle.parent</module>
 		<module>org.scala-lang.scala-library.source</module>
+        <module>org.scala-lang.scala-reflect.source</module>
+        <module>org.scala-lang.scala-compiler.source</module>
 		<module>org.json4s</module>
+        <module>org.json4s.source</module>
         <module>org.scala-lang.scalap</module>
+        <module>org.scala-lang.scalap.source</module>
         <module>net.databinder.unfiltered</module>
+        <module>net.databinder.unfiltered.source</module>
         <module>net.databinder.dispatch</module>
+        <module>net.databinder.dispatch.source</module>
         <module>com.thoughtworks.paranamer</module>
+        <module>com.thoughtworks.paranamer.source</module>
         <module>io.netty</module>
+        <module>io.netty.source</module>
+        <module>io.argonaut</module>
+        <module>io.argonaut.source</module>
+        <module>org.spire-math.spire-scalacheck-binding</module>
+        <module>org.spire-math.spire-scalacheck-binding.source</module>
+        <module>org.spire-math.spire</module>
+        <module>org.spire-math.spire.source</module>
+        <module>org.specs2</module>
+        <module>org.specs2.source</module>
+        <module>org.scalacheck</module>
+        <module>org.scalacheck.source</module>
+        <module>org.scalaz.core.source</module>
+        <module>org.scalaz.typelevel.source</module>
+        <module>org.scalaz.scalacheck.binding.source</module>
+        <module>org.scalaz.iteratee.source</module>
+        <module>org.scalaz.effect.source</module>
+        <module>org.scalaz.stream.source</module>
+        <module>org.scalaz.concurrent.source</module>
+        <module>com.ning.async-http-client.source</module>
+        <module>com.google.protobuf.source</module>
+        <module>com.chuusai.shapeless.core.source</module>
+
+        <module>org.hamcrest.core</module>
+        <module>org.hamcrest.core.source</module>
+        <module>org.mockito.mockito-core.source</module>
+        <module>org.objectweb.asm.source</module>
+        <module>org.objectweb.asm.analysis.source</module>
+        <module>org.objectweb.asm.tree.source</module>
+        <module>org.objectweb.asm.util.source</module>
+        <module>org.parboiled</module>
+        <module>org.parboiled.source</module>
+        <module>org.pegdown</module>
+        <module>org.pegdown.source</module>
+        <module>org.scalamacros.quasiquotes</module>
+        <module>org.scalamacros.quasiquotes.source</module>
+        <module>org.typelevel.discipline</module>
+        <module>org.typelevel.discipline.source</module>
 	</modules>
 
   <build>

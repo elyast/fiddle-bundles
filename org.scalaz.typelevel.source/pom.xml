@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>source.bundle.parent</artifactId>
+		<groupId>org.elyast.bundles</groupId>
+		<version>0.0.1</version>
+		<relativePath>../source.bundle.parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>org.scalaz.typelevel_2.10.source</artifactId>
+	<version>7.0.6</version>
+	<properties>
+		<wrapped.version>7.0.6</wrapped.version>
+		<wrapped.artifactId>scalaz-typelevel_2.10</wrapped.artifactId>
+		<bundle.symbolicName>org.scalaz.typelevel</bundle.symbolicName>
+		<wrapped.groupId>org.scalaz</wrapped.groupId>
+	</properties>
+</project>

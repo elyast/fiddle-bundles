@@ -1,0 +1,2 @@
+Import-Package: sbt.testing;resolution:=optional, \
+    org.scalatools.testing;resolution:=optional, *

@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>source.bundle.parent</artifactId>
+		<groupId>org.elyast.bundles</groupId>
+		<version>0.0.1</version>
+		<relativePath>../source.bundle.parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>com.ning.async-http-client.source</artifactId>
+	<version>1.7.24</version>
+	<properties>
+		<wrapped.version>1.7.24</wrapped.version>
+		<wrapped.artifactId>async-http-client</wrapped.artifactId>
+		<bundle.symbolicName>com.ning.async-http-client</bundle.symbolicName>
+		<wrapped.groupId>com.ning</wrapped.groupId>
+	</properties>
+</project>
