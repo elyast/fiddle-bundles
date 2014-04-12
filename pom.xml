@@ -67,13 +67,12 @@
         <module>org.scalaz.iteratee.source</module>
         <module>org.scalaz.effect.source</module>
         <module>org.scalaz.stream.source</module>
+        <module>org.scalaz.xml.source</module>
         <module>org.scalaz.concurrent.source</module>
         <module>com.ning.async-http-client.source</module>
         <module>com.google.protobuf.source</module>
         <module>com.chuusai.shapeless.core.source</module>
 
-        <module>org.hamcrest.core</module>
-        <module>org.hamcrest.core.source</module>
         <module>org.mockito.core</module>
         <module>org.mockito.core.source</module>
         <module>org.objectweb.asm.source</module>
