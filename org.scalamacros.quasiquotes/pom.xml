@@ -8,7 +8,7 @@
         <relativePath>../bundle.parent/pom.xml</relativePath>
     </parent>
 	<artifactId>org.scalamacros.quasiquotes_2.10</artifactId>
-	<version>2.0.0-M7</version>
+	<version>2.0.0.M7</version>
 	<packaging>bundle</packaging>
 	<name>${bundle.symbolicName}</name>
 

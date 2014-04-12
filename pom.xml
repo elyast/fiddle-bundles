@@ -74,7 +74,8 @@
 
         <module>org.hamcrest.core</module>
         <module>org.hamcrest.core.source</module>
-        <module>org.mockito.mockito-core.source</module>
+        <module>org.mockito.core</module>
+        <module>org.mockito.core.source</module>
         <module>org.objectweb.asm.source</module>
         <module>org.objectweb.asm.analysis.source</module>
         <module>org.objectweb.asm.tree.source</module>
