@@ -1,0 +1,1 @@
+Import-Package: org.scalatools.testing;resolution:=optional, *

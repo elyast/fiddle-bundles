@@ -1,2 +1,5 @@
-Import-Package: org.jboss.logging;resolution:=optional, \
-	org.jboss.marshalling;resolution:=optional, *
+Import-Package: org.scalatest;resolution:=optional, \
+	org.scalatest.prop;resolution:=optional, \
+    org.specs2.execute;resolution:=optional, \
+    org.specs2.matcher;resolution:=optional, \
+    org.specs2.specification;resolution:=optional,*
