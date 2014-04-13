@@ -87,6 +87,8 @@
         <module>org.scalamacros.quasiquotes.source</module>
         <module>org.typelevel.discipline</module>
         <module>org.typelevel.discipline.source</module>
+        <module>com.typesafe.scalalogging</module>
+        <module>com.typesafe.scalalogging.source</module>
 	</modules>
 
   <build>
