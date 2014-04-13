@@ -1,3 +1,4 @@
 Import-Package: sbt.testing;resolution:=optional, \
     org.scalatools.testing;resolution:=optional, \
     org.hamcrest;version="[1.0,2.0)", *
+DynamicImport-Package: *
