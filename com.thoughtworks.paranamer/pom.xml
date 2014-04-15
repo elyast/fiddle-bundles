@@ -16,6 +16,5 @@
         <wrapped.artifactId>paranamer</wrapped.artifactId>
         <bundle.symbolicName>com.thoughtworks.paranamer</bundle.symbolicName>
         <wrapped.groupId>com.thoughtworks.paranamer</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>
     </properties>
 </project>

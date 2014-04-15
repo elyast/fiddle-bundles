@@ -24,7 +24,6 @@
 		<wrapped.version>0.1</wrapped.version>
 		<wrapped.artifactId>discipline_2.10</wrapped.artifactId>
 		<bundle.symbolicName>org.typelevel.discipline</bundle.symbolicName>
-		<wrapped.groupId>org.typelevel</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>        
+		<wrapped.groupId>org.typelevel</wrapped.groupId>      
 	</properties>
 </project>

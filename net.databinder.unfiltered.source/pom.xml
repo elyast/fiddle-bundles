@@ -67,6 +67,24 @@
             <artifactId>unfiltered-util_2.10</artifactId>
             <version>${wrapped.version}</version>
             <classifier>sources</classifier>
-        </dependency>                                       
+        </dependency>   
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>unfiltered-agents_2.10</artifactId>
+            <version>${wrapped.version}</version>
+            <classifier>sources</classifier>
+        </dependency>                   
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>unfiltered-directives_2.10</artifactId>
+            <version>${wrapped.version}</version>
+            <classifier>sources</classifier>
+        </dependency>                               
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>unfiltered-mac_2.10</artifactId>
+            <version>${wrapped.version}</version>
+            <classifier>sources</classifier>
+        </dependency>                                            
     </dependencies>    
 </project>

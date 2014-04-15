@@ -16,8 +16,7 @@
         <wrapped.version>2.3.10</wrapped.version>
         <wrapped.artifactId>specs2_2.10</wrapped.artifactId>
         <bundle.symbolicName>org.specs2</bundle.symbolicName>
-        <wrapped.groupId>org.specs2</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>        
+        <wrapped.groupId>org.specs2</wrapped.groupId>       
     </properties>
 
     <dependencies>

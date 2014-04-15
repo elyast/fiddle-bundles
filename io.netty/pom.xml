@@ -24,7 +24,6 @@
 		<wrapped.version>3.6.8.Final</wrapped.version>
 		<wrapped.artifactId>netty</wrapped.artifactId>
 		<bundle.symbolicName>io.netty</bundle.symbolicName>
-		<wrapped.groupId>io.netty</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>        
+		<wrapped.groupId>io.netty</wrapped.groupId>    
 	</properties>
 </project>

@@ -24,8 +24,7 @@
 		<wrapped.version>0.7.1</wrapped.version>
 		<wrapped.artifactId>unfiltered_2.10</wrapped.artifactId>
 		<bundle.symbolicName>net.databinder.unfiltered</bundle.symbolicName>
-		<wrapped.groupId>net.databinder</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>        
+		<wrapped.groupId>net.databinder</wrapped.groupId>       
 	</properties>
 	
 	<dependencies>
@@ -63,7 +62,22 @@
             <groupId>${wrapped.groupId}</groupId>
             <artifactId>unfiltered-util_2.10</artifactId>
             <version>${wrapped.version}</version>
-        </dependency>										
+        </dependency>	
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>unfiltered-agents_2.10</artifactId>
+            <version>${wrapped.version}</version>
+        </dependency>        			
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>unfiltered-directives_2.10</artifactId>
+            <version>${wrapped.version}</version>
+        </dependency>        						
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>unfiltered-mac_2.10</artifactId>
+            <version>${wrapped.version}</version>
+        </dependency>        
 	</dependencies>
 
 </project>

@@ -27,6 +27,18 @@
             <artifactId>json4s-ast_2.10</artifactId>
             <version>${wrapped.version}</version>
             <classifier>sources</classifier>
-        </dependency>   
+        </dependency> 
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>json4s-scalaz_2.10</artifactId>
+            <version>${wrapped.version}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>json4s-ext_2.10</artifactId>
+            <version>${wrapped.version}</version>
+            <classifier>sources</classifier>
+        </dependency>          
     </dependencies>    
 </project>

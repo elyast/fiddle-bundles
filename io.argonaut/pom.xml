@@ -16,8 +16,7 @@
         <wrapped.version>6.0.3</wrapped.version>
         <wrapped.artifactId>argonaut_2.10</wrapped.artifactId>
         <bundle.symbolicName>io.argonaut</bundle.symbolicName>
-        <wrapped.groupId>io.argonaut</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>        
+        <wrapped.groupId>io.argonaut</wrapped.groupId>       
     </properties>
 
 </project>

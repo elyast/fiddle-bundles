@@ -87,6 +87,9 @@
         <module>org.typelevel.discipline.source</module>
         <module>com.typesafe.scalalogging</module>
         <module>com.typesafe.scalalogging.source</module>
+        <module>org.jsoup.source</module>
+        <module>joda-time.source</module>
+        <module>org.joda.convert.source</module>
 	</modules>
 
   <build>

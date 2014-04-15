@@ -17,7 +17,6 @@
 		<wrapped.artifactId>dispatch-core_2.10</wrapped.artifactId>
 		<bundle.symbolicName>net.databinder.dispatch</bundle.symbolicName>
 		<wrapped.groupId>net.databinder.dispatch</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>
 	</properties>
 
 	<dependencies>
@@ -26,5 +25,10 @@
             <artifactId>dispatch-json4s-native_2.10</artifactId>
             <version>${wrapped.version}</version>
         </dependency>
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>dispatch-jsoup_2.10</artifactId>
+            <version>${wrapped.version}</version>
+        </dependency>        
 	</dependencies>
 </project>

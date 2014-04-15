@@ -24,7 +24,6 @@
 		<wrapped.version>1.2.1</wrapped.version>
 		<wrapped.artifactId>pegdown</wrapped.artifactId>
 		<bundle.symbolicName>org.pegdown</bundle.symbolicName>
-		<wrapped.groupId>org.pegdown</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>        
+		<wrapped.groupId>org.pegdown</wrapped.groupId>    
 	</properties>
 </project>

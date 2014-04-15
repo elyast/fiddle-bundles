@@ -16,8 +16,7 @@
         <wrapped.version>1.1.0</wrapped.version>
         <wrapped.artifactId>scalalogging-slf4j_2.10</wrapped.artifactId>
         <bundle.symbolicName>com.typesafe.scalalogging</bundle.symbolicName>
-        <wrapped.groupId>com.typesafe</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>        
+        <wrapped.groupId>com.typesafe</wrapped.groupId>      
     </properties>
 
 </project>

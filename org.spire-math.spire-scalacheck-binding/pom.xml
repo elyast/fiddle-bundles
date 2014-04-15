@@ -16,8 +16,7 @@
         <wrapped.version>0.7.3</wrapped.version>
         <wrapped.artifactId>spire-scalacheck-binding_2.10</wrapped.artifactId>
         <bundle.symbolicName>org.spire-math.spire-scalacheck-binding</bundle.symbolicName>
-        <wrapped.groupId>org.spire-math</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>        
+        <wrapped.groupId>org.spire-math</wrapped.groupId>     
     </properties>
 
 </project>

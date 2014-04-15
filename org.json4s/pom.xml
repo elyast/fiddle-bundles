@@ -17,7 +17,6 @@
 		<wrapped.artifactId>json4s-core_2.10</wrapped.artifactId>
 		<bundle.symbolicName>org.json4s</bundle.symbolicName>
 		<wrapped.groupId>org.json4s</wrapped.groupId>
-		<inline.enabled>false</inline.enabled>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -30,5 +29,15 @@
 			<artifactId>json4s-ast_2.10</artifactId>
 			<version>${wrapped.version}</version>
 		</dependency>	
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>json4s-scalaz_2.10</artifactId>
+            <version>${wrapped.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>json4s-ext_2.10</artifactId>
+            <version>${wrapped.version}</version>
+        </dependency>                
 	</dependencies>
 </project>

@@ -16,8 +16,7 @@
         <wrapped.version>2.10.3</wrapped.version>
         <wrapped.artifactId>scalap</wrapped.artifactId>
         <bundle.symbolicName>org.scala-lang.scalap</bundle.symbolicName>
-        <wrapped.groupId>org.scala-lang</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>        
+        <wrapped.groupId>org.scala-lang</wrapped.groupId>  
     </properties>
 
 </project>

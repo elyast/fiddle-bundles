@@ -23,6 +23,12 @@
             <version>${wrapped.version}</version>
             <classifier>sources</classifier>
         </dependency>
+        <dependency>
+            <groupId>${wrapped.groupId}</groupId>
+            <artifactId>dispatch-jsoup_2.10</artifactId>
+            <version>${wrapped.version}</version>
+            <classifier>sources</classifier>
+        </dependency>        
     </dependencies>
 
 </project>

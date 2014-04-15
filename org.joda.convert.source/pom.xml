@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>source.bundle.parent</artifactId>
+		<groupId>org.elyast.bundles</groupId>
+		<version>0.0.1</version>
+		<relativePath>../source.bundle.parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>org.joda.convert.source</artifactId>
+	<version>1.6</version>
+
+	<properties>
+		<wrapped.version>1.6</wrapped.version>
+		<wrapped.artifactId>joda-convert</wrapped.artifactId>
+		<bundle.symbolicName>org.joda.convert</bundle.symbolicName>
+		<wrapped.groupId>org.joda</wrapped.groupId>
+	</properties>
+</project>

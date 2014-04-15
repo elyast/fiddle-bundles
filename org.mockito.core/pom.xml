@@ -24,7 +24,6 @@
         <wrapped.version>1.9.5</wrapped.version>
         <wrapped.artifactId>mockito-core</wrapped.artifactId>
         <bundle.symbolicName>org.mockito.core</bundle.symbolicName>
-        <wrapped.groupId>org.mockito</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>        
+        <wrapped.groupId>org.mockito</wrapped.groupId>     
 	</properties>
 </project>

@@ -24,7 +24,6 @@
 		<wrapped.version>2.0.0-M3</wrapped.version>
 		<wrapped.artifactId>quasiquotes_2.10.3</wrapped.artifactId>
 		<bundle.symbolicName>org.scalamacros.quasiquotes</bundle.symbolicName>
-		<wrapped.groupId>org.scalamacros</wrapped.groupId>
-        <inline.enabled>false</inline.enabled>        
+		<wrapped.groupId>org.scalamacros</wrapped.groupId>     
 	</properties>
 </project>
