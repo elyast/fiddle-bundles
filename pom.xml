@@ -36,11 +36,11 @@
 		<module>source.bundle.parent</module>
 		<module>org.scala-lang.scala-library.source</module>
         <module>org.scala-lang.scala-reflect.source</module>
-        <module>org.scala-lang.scala-compiler.source</module>
+        <!--module>org.scala-lang.scala-compiler.source</module-->
 		<module>org.json4s</module>
         <module>org.json4s.source</module>
-        <module>org.scala-lang.scalap</module>
-        <module>org.scala-lang.scalap.source</module>
+        <!--module>org.scala-lang.scalap</module>
+        <module>org.scala-lang.scalap.source</module-->
         <module>net.databinder.unfiltered</module>
         <module>net.databinder.unfiltered.source</module>
         <module>net.databinder.dispatch</module>

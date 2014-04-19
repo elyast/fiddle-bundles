@@ -8,12 +8,12 @@
         <relativePath>../bundle.parent/pom.xml</relativePath>
     </parent>
     <artifactId>org.specs2_2.10</artifactId>
-    <version>2.3.10</version>
+    <version>2.3.11</version>
     <packaging>bundle</packaging>
     <name>${bundle.symbolicName}</name>
 
     <properties>
-        <wrapped.version>2.3.10</wrapped.version>
+        <wrapped.version>2.3.11</wrapped.version>
         <wrapped.artifactId>specs2_2.10</wrapped.artifactId>
         <bundle.symbolicName>org.specs2</bundle.symbolicName>
         <wrapped.groupId>org.specs2</wrapped.groupId>       

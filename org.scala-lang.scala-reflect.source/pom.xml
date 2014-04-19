@@ -8,9 +8,9 @@
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>org.scala-lang.scala-reflect.source</artifactId>
-	<version>2.10.3</version>
+	<version>2.10.4</version>
 	<properties>
-		<wrapped.version>2.10.3</wrapped.version>
+		<wrapped.version>2.10.4</wrapped.version>
 		<wrapped.artifactId>scala-reflect</wrapped.artifactId>
 		<bundle.symbolicName>org.scala-lang.scala-reflect</bundle.symbolicName>
 		<wrapped.groupId>org.scala-lang</wrapped.groupId>
