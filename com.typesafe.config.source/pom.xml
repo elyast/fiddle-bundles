@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>source.bundle.parent</artifactId>
+		<groupId>org.elyast.bundles</groupId>
+		<version>0.0.1</version>
+		<relativePath>../source.bundle.parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>com.typesafe.config.source</artifactId>
+	<version>1.0.2</version>
+
+    <repositories>
+        <repository>
+            <id>oss</id>
+            <name>oss</name>
+            <url>http://oss.sonatype.org/content/repositories/releases/</url>
+        </repository>       
+    </repositories>
+        
+	<properties>
+        <wrapped.version>1.0.2</wrapped.version>
+        <wrapped.artifactId>config</wrapped.artifactId>
+        <bundle.symbolicName>com.typesafe.config</bundle.symbolicName>
+        <wrapped.groupId>com.typesafe</wrapped.groupId>
+	</properties>
+</project>

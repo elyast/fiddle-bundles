@@ -1,2 +1,0 @@
-Import-Package: org.json4s.jackson;resolution:=optional, \
-    scala.tools.scalap.scalax.rules.scalasig;resolution:=optional,*

@@ -8,10 +8,10 @@
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>org.typelevel.scodec.bits_2.10.source</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 
 	<properties>
-		<wrapped.version>1.0.0</wrapped.version>
+		<wrapped.version>1.0.1</wrapped.version>
 		<wrapped.artifactId>scodec-bits_2.10</wrapped.artifactId>
 		<bundle.symbolicName>org.typelevel.scodec.bits</bundle.symbolicName>
 		<wrapped.groupId>org.typelevel</wrapped.groupId>

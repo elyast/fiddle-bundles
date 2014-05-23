@@ -8,9 +8,9 @@
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>org.spire-math.spire-scalacheck-binding_2.10.source</artifactId>
-	<version>0.7.3</version>
+	<version>0.7.4</version>
 	<properties>
-		<wrapped.version>0.7.3</wrapped.version>
+		<wrapped.version>0.7.4</wrapped.version>
 		<wrapped.artifactId>spire-scalacheck-binding_2.10</wrapped.artifactId>
 		<bundle.symbolicName>org.spire-math.spire-scalacheck-binding</bundle.symbolicName>
 		<wrapped.groupId>org.spire-math</wrapped.groupId>

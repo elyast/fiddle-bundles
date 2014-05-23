@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>bundle.parent</artifactId>
+        <groupId>org.elyast.bundles</groupId>
+        <version>0.0.1</version>
+        <relativePath>../bundle.parent/pom.xml</relativePath>
+    </parent>
+	<artifactId>net.iharder.base64</artifactId>
+	<version>2.3.8</version>
+	<packaging>bundle</packaging>
+	<name>${bundle.symbolicName}</name>
+
+	<repositories>
+		<repository>
+			<id>oss</id>
+			<name>oss</name>
+			<url>http://oss.sonatype.org/content/repositories/releases/</url>
+		</repository>		
+	</repositories>
+
+	<properties>
+		<wrapped.version>2.3.8</wrapped.version>
+		<wrapped.artifactId>base64</wrapped.artifactId>
+		<bundle.symbolicName>net.iharder.base64</bundle.symbolicName>
+		<wrapped.groupId>net.iharder</wrapped.groupId>      
+	</properties>
+</project>

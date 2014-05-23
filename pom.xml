@@ -34,62 +34,89 @@
 	<modules>
 		<module>bundle.parent</module>
 		<module>source.bundle.parent</module>
-		<module>org.scala-lang.scala-library.source</module>
-        <module>org.scala-lang.scala-reflect.source</module>
-        <!--module>org.scala-lang.scala-compiler.source</module-->
-		<module>org.json4s</module>
-        <module>org.json4s.source</module>
-        <!--module>org.scala-lang.scalap</module>
-        <module>org.scala-lang.scalap.source</module-->
-        <module>net.databinder.unfiltered</module>
-        <module>net.databinder.unfiltered.source</module>
-        <module>net.databinder.dispatch</module>
-        <module>net.databinder.dispatch.source</module>
+        <module>com.chuusai.shapeless.core.source</module>
+        <module>com.google.protobuf.source</module>      
+        <module>com.ning.async-http-client.source</module>  
         <module>com.thoughtworks.paranamer</module>
         <module>com.thoughtworks.paranamer.source</module>
-        <module>io.netty</module>
-        <module>io.netty.source</module>
+        <module>com.typesafe.config.source</module>
+        <module>com.typesafe.scala-logging.api</module>
+        <module>com.typesafe.scala-logging.api.source</module>
+        <module>com.typesafe.scala-logging.slf4j</module>
+        <module>com.typesafe.scala-logging.slf4j.source</module>        
         <module>io.argonaut</module>
         <module>io.argonaut.source</module>
-        <module>org.spire-math.spire-scalacheck-binding</module>
-        <module>org.spire-math.spire-scalacheck-binding.source</module>
-        <module>org.spire-math.spire</module>
-        <module>org.spire-math.spire.source</module>
-        <module>org.specs2</module>
-        <module>org.specs2.source</module>
-        <module>org.scalacheck</module>
-        <module>org.scalacheck.source</module>
-        <module>org.scalaz.core.source</module>
-        <module>org.scalaz.typelevel.source</module>
-        <module>org.scalaz.scalacheck.binding.source</module>
-        <module>org.scalaz.iteratee.source</module>
-        <module>org.scalaz.effect.source</module>
-        <module>org.scalaz.stream.source</module>
-        <module>org.scalaz.xml.source</module>
-        <module>org.scalaz.concurrent.source</module>
-        <module>com.ning.async-http-client.source</module>
-        <module>com.google.protobuf.source</module>
-        <module>com.chuusai.shapeless.core.source</module>
-
+        <module>io.netty</module>
+        <module>io.netty.source</module>
+        <module>joda-time.source</module>
+        <module>net.databinder.dispatch.core</module>
+        <module>net.databinder.dispatch.core.source</module>
+        <module>net.databinder.dispatch.json4s-native</module>
+        <module>net.databinder.dispatch.json4s-native.source</module>
+        <module>net.databinder.dispatch.jsoup</module>
+        <module>net.databinder.dispatch.jsoup.source</module>        
+        <module>net.iharder.base64</module>
+        <module>net.iharder.base64.source</module>
+        <module>org.eclipse.jetty.npn.api</module>
+        <module>org.eclipse.jetty.npn.api.source</module>
+        <module>org.http4s.blaze</module>
+        <module>org.http4s.blaze.source</module>
+        <module>org.http4s.blaze.core</module>
+        <module>org.http4s.blaze.core.source</module>
+        <module>org.http4s.core</module>
+        <module>org.http4s.core.source</module>
+        <module>org.http4s.dsl</module>
+        <module>org.http4s.dsl.source</module>
+        <module>org.joda.convert.source</module>
+        <module>org.json4s.ast</module>
+        <module>org.json4s.ast.source</module>
+        <module>org.json4s.core</module>
+        <module>org.json4s.core.source</module>
+        <module>org.json4s.ext</module>
+        <module>org.json4s.ext.source</module>
+        <module>org.json4s.native</module>
+        <module>org.json4s.native.source</module>
+        <module>org.json4s.scalaz</module>
+        <module>org.json4s.scalaz.source</module>
+        <module>org.jsoup.source</module>
         <module>org.mockito.core</module>
         <module>org.mockito.core.source</module>
-        <module>org.objectweb.asm.source</module>
+        <module>org.mortbay.jetty.npn.boot</module>
+        <module>org.mortbay.jetty.npn.boot.source</module>        
         <module>org.objectweb.asm.analysis.source</module>
+        <module>org.objectweb.asm.source</module>        
         <module>org.objectweb.asm.tree.source</module>
         <module>org.objectweb.asm.util.source</module>
         <module>org.parboiled</module>
         <module>org.parboiled.source</module>
         <module>org.pegdown</module>
-        <module>org.pegdown.source</module>
+        <module>org.pegdown.source</module>                
+        <module>org.scala-lang.scala-library.source</module>
+        <module>org.scala-lang.scala-reflect.source</module>
+        <module>org.scalacheck</module>
+        <module>org.scalacheck.source</module>
         <module>org.scalamacros.quasiquotes</module>
         <module>org.scalamacros.quasiquotes.source</module>
+        <module>org.scalatra.rl</module>
+        <module>org.scalatra.rl.source</module>
+        <module>org.scalaz.concurrent.source</module>        
+        <module>org.scalaz.core.source</module>
+        <module>org.scalaz.effect.source</module>
+        <module>org.scalaz.iteratee.source</module>        
+        <module>org.scalaz.scalacheck.binding.source</module>
+        <module>org.scalaz.stream.source</module>
+        <module>org.scalaz.typelevel.source</module>                
+        <module>org.scalaz.xml.source</module>
+        <module>org.specs2</module>
+        <module>org.specs2.source</module>
+        <module>org.specs2.classycle</module>
+        <module>org.specs2.classycle.source</module>                
+        <module>org.spire-math.spire</module>
+        <module>org.spire-math.spire.source</module>
+        <module>org.spire-math.spire-scalacheck-binding</module>
+        <module>org.spire-math.spire-scalacheck-binding.source</module>
         <module>org.typelevel.discipline</module>
-        <module>org.typelevel.discipline.source</module>
-        <module>com.typesafe.scalalogging</module>
-        <module>com.typesafe.scalalogging.source</module>
-        <module>org.jsoup.source</module>
-        <module>joda-time.source</module>
-        <module>org.joda.convert.source</module>
+        <module>org.typelevel.discipline.source</module>                        
         <module>org.typelevel.scodec.bits.source</module>
 	</modules>
 

@@ -8,9 +8,9 @@
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>com.ning.async-http-client.source</artifactId>
-	<version>1.7.24</version>
+	<version>1.8.8</version>
 	<properties>
-		<wrapped.version>1.7.24</wrapped.version>
+		<wrapped.version>1.8.8</wrapped.version>
 		<wrapped.artifactId>async-http-client</wrapped.artifactId>
 		<bundle.symbolicName>com.ning.async-http-client</bundle.symbolicName>
 		<wrapped.groupId>com.ning</wrapped.groupId>

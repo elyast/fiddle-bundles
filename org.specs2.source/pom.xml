@@ -15,13 +15,5 @@
 		<bundle.symbolicName>org.specs2</bundle.symbolicName>
 		<wrapped.groupId>org.specs2</wrapped.groupId>
 	</properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>${wrapped.groupId}</groupId>
-            <artifactId>classycle</artifactId>
-            <version>1.4.3</version>
-            <classifier>sources</classifier>
-        </dependency>
-    </dependencies>    
+   
 </project>

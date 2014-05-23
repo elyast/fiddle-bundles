@@ -19,12 +19,4 @@
         <wrapped.groupId>org.specs2</wrapped.groupId>       
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>${wrapped.groupId}</groupId>
-            <artifactId>classycle</artifactId>
-            <version>1.4.3</version>
-        </dependency>
-    </dependencies>
-
 </project>

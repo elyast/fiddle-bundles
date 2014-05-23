@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>bundle.parent</artifactId>
+        <groupId>org.elyast.bundles</groupId>
+        <version>0.0.1</version>
+        <relativePath>../bundle.parent/pom.xml</relativePath>
+    </parent>
+	<artifactId>org.eclipse.jetty.npn.api</artifactId>
+	<version>8.1.2.v20120308</version>
+	<packaging>bundle</packaging>
+	<name>${bundle.symbolicName}</name>
+
+	<repositories>
+		<repository>
+			<id>oss</id>
+			<name>oss</name>
+			<url>http://oss.sonatype.org/content/repositories/releases/</url>
+		</repository>		
+	</repositories>
+
+	<properties>
+		<wrapped.version>8.1.2.v20120308</wrapped.version>
+		<wrapped.artifactId>npn-api</wrapped.artifactId>
+		<bundle.symbolicName>org.eclipse.jetty.npn.api</bundle.symbolicName>
+		<wrapped.groupId>org.eclipse.jetty.npn</wrapped.groupId>      
+	</properties>
+</project>

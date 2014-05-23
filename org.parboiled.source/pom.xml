@@ -7,8 +7,8 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>org.parboiled.source</artifactId>
-	<version>1.1.4</version>
+	<artifactId>org.parboiled_2.10.source</artifactId>
+	<version>2.0.0.RC1</version>
 
     <repositories>
         <repository>
@@ -19,18 +19,10 @@
     </repositories>
         
 	<properties>
-        <wrapped.version>1.1.4</wrapped.version>
-        <wrapped.artifactId>parboiled-core</wrapped.artifactId>
+        <wrapped.version>2.0.0-RC1</wrapped.version>
+        <wrapped.artifactId>parboiled_2.10</wrapped.artifactId>
         <bundle.symbolicName>org.parboiled</bundle.symbolicName>
         <wrapped.groupId>org.parboiled</wrapped.groupId>
 	</properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>${wrapped.groupId}</groupId>
-            <artifactId>parboiled-java</artifactId>
-            <version>${wrapped.version}</version>
-            <classifier>sources</classifier>
-        </dependency>
-    </dependencies>    
+   
 </project>
