@@ -1,5 +1,7 @@
 Import-Package: sbt.testing;resolution:=optional, \
     org.scalatools.testing;resolution:=optional, \
+    org.pegdown;resolution:=optional, \
+    org.pegdown.ast;resolution:=optional, \
     org.hamcrest;version="[1.0,2.0)", *
 Eclipse-BuddyPolicy: dependent
 Bundle-ActivationPolicy: lazy
