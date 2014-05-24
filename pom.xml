@@ -63,6 +63,8 @@
         <module>org.http4s.blaze.source</module>
         <module>org.http4s.blaze.core</module>
         <module>org.http4s.blaze.core.source</module>
+        <module>org.http4s.blaze.http</module>
+        <module>org.http4s.blaze.http.source</module>        
         <module>org.http4s.core</module>
         <module>org.http4s.core.source</module>
         <module>org.http4s.dsl</module>
