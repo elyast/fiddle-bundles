@@ -1,0 +1,4 @@
+Import-Package: sun.misc;resolution:=optional, \
+    sun.net.util;resolution:=optional, \
+    sun.security.internal.interfaces;resolution:=optional, \
+    sun.security.internal.spec;resolution:=optional, *
