@@ -8,10 +8,10 @@
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>org.jsoup.source</artifactId>
-	<version>1.6.3</version>
+	<version>1.7.2</version>
 
 	<properties>
-		<wrapped.version>1.6.3</wrapped.version>
+		<wrapped.version>1.7.2</wrapped.version>
 		<wrapped.artifactId>jsoup</wrapped.artifactId>
 		<bundle.symbolicName>org.jsoup</bundle.symbolicName>
 		<wrapped.groupId>org.jsoup</wrapped.groupId>

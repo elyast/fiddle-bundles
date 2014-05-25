@@ -45,9 +45,7 @@
         <module>com.typesafe.scala-logging.slf4j</module>
         <module>com.typesafe.scala-logging.slf4j.source</module>        
         <module>io.argonaut</module>
-        <module>io.argonaut.source</module>
-        <module>io.netty</module>
-        <module>io.netty.source</module>
+        <module>io.argonaut.source</module>        
         <module>joda-time.source</module>
         <module>net.databinder.dispatch.core</module>
         <module>net.databinder.dispatch.core.source</module>
@@ -69,6 +67,7 @@
         <module>org.http4s.core.source</module>
         <module>org.http4s.dsl</module>
         <module>org.http4s.dsl.source</module>
+        <module>org.jboss.netty.source</module>        
         <module>org.joda.convert.source</module>
         <module>org.json4s.ast</module>
         <module>org.json4s.ast.source</module>
@@ -84,15 +83,9 @@
         <module>org.mockito.core</module>
         <module>org.mockito.core.source</module>
         <module>org.mortbay.jetty.npn.boot</module>
-        <module>org.mortbay.jetty.npn.boot.source</module>        
-        <module>org.objectweb.asm.analysis.source</module>
-        <module>org.objectweb.asm.source</module>        
-        <module>org.objectweb.asm.tree.source</module>
-        <module>org.objectweb.asm.util.source</module>
+        <module>org.mortbay.jetty.npn.boot.source</module>
         <module>org.parboiled</module>
-        <module>org.parboiled.source</module>
-        <module>org.pegdown</module>
-        <module>org.pegdown.source</module>                
+        <module>org.parboiled.source</module>               
         <module>org.scala-lang.scala-library.source</module>
         <module>org.scala-lang.scala-reflect.source</module>
         <module>org.scalacheck</module>
