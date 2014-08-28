@@ -8,10 +8,10 @@
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>joda-time.source</artifactId>
-	<version>2.3</version>
+	<version>2.4</version>
 
 	<properties>
-		<wrapped.version>2.3</wrapped.version>
+		<wrapped.version>2.4</wrapped.version>
 		<wrapped.artifactId>joda-time</wrapped.artifactId>
 		<bundle.symbolicName>joda-time</bundle.symbolicName>
 		<wrapped.groupId>joda-time</wrapped.groupId>

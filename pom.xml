@@ -90,8 +90,6 @@
         <module>org.scala-lang.scala-reflect.source</module>
         <module>org.scalacheck</module>
         <module>org.scalacheck.source</module>
-        <module>org.scalamacros.quasiquotes</module>
-        <module>org.scalamacros.quasiquotes.source</module>
         <module>org.scalatra.rl</module>
         <module>org.scalatra.rl.source</module>
         <module>org.scalaz.concurrent.source</module>        

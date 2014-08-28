@@ -7,11 +7,11 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>org.spire-math.spire-scalacheck-binding_2.10.source</artifactId>
-	<version>0.7.4</version>
+	<artifactId>org.spire-math.spire-scalacheck-binding_2.11.source</artifactId>
+	<version>0.8.2</version>
 	<properties>
-		<wrapped.version>0.7.4</wrapped.version>
-		<wrapped.artifactId>spire-scalacheck-binding_2.10</wrapped.artifactId>
+		<wrapped.version>0.8.2</wrapped.version>
+		<wrapped.artifactId>spire-scalacheck-binding_2.11</wrapped.artifactId>
 		<bundle.symbolicName>org.spire-math.spire-scalacheck-binding</bundle.symbolicName>
 		<wrapped.groupId>org.spire-math</wrapped.groupId>
 	</properties>

@@ -7,11 +7,11 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>org.json4s.core_2.10.source</artifactId>
-	<version>3.2.9</version>
+	<artifactId>org.json4s.core_2.11.source</artifactId>
+	<version>3.2.10</version>
 	<properties>
-		<wrapped.version>3.2.9</wrapped.version>
-		<wrapped.artifactId>json4s-core_2.10</wrapped.artifactId>
+		<wrapped.version>3.2.10</wrapped.version>
+		<wrapped.artifactId>json4s-core_2.11</wrapped.artifactId>
 		<bundle.symbolicName>org.json4s.core</bundle.symbolicName>
 		<wrapped.groupId>org.json4s</wrapped.groupId>
 	</properties>  

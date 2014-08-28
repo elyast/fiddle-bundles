@@ -7,11 +7,11 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>org.scalaz.concurrent_2.10.source</artifactId>
-	<version>7.0.6</version>
+	<artifactId>org.scalaz.concurrent_2.11.source</artifactId>
+	<version>7.1.0</version>
 	<properties>
-		<wrapped.version>7.0.6</wrapped.version>
-		<wrapped.artifactId>scalaz-concurrent_2.10</wrapped.artifactId>
+		<wrapped.version>7.1.0</wrapped.version>
+		<wrapped.artifactId>scalaz-concurrent_2.11</wrapped.artifactId>
 		<bundle.symbolicName>org.scalaz.concurrent</bundle.symbolicName>
 		<wrapped.groupId>org.scalaz</wrapped.groupId>
 	</properties>

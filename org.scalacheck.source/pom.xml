@@ -7,11 +7,11 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>org.scalacheck_2.10.source</artifactId>
-	<version>1.11.3</version>
+	<artifactId>org.scalacheck_2.11.source</artifactId>
+	<version>1.11.5</version>
 	<properties>
-		<wrapped.version>1.11.3</wrapped.version>
-		<wrapped.artifactId>scalacheck_2.10</wrapped.artifactId>
+		<wrapped.version>1.11.5</wrapped.version>
+		<wrapped.artifactId>scalacheck_2.11</wrapped.artifactId>
 		<bundle.symbolicName>org.scalacheck</bundle.symbolicName>
 		<wrapped.groupId>org.scalacheck</wrapped.groupId>
 	</properties>

@@ -8,11 +8,11 @@
         <relativePath>../bundle.parent/pom.xml</relativePath>
     </parent>
     <artifactId>com.thoughtworks.paranamer</artifactId>
-    <version>2.6</version>
+    <version>2.6.1</version>
     <packaging>bundle</packaging>
     <name>${bundle.symbolicName}</name> 
     <properties>
-        <wrapped.version>2.6</wrapped.version>
+        <wrapped.version>2.6.1</wrapped.version>
         <wrapped.artifactId>paranamer</wrapped.artifactId>
         <bundle.symbolicName>com.thoughtworks.paranamer</bundle.symbolicName>
         <wrapped.groupId>com.thoughtworks.paranamer</wrapped.groupId>

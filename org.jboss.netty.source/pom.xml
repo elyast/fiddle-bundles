@@ -8,7 +8,7 @@
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>org.jboss.netty.source</artifactId>
-	<version>3.9.1.Final</version>
+	<version>3.9.2.Final</version>
 
     <repositories>
         <repository>
@@ -19,7 +19,7 @@
     </repositories>
         
 	<properties>
-		<wrapped.version>3.9.1.Final</wrapped.version>
+		<wrapped.version>3.9.2.Final</wrapped.version>
 		<wrapped.artifactId>netty</wrapped.artifactId>
 		<bundle.symbolicName>org.jboss.netty</bundle.symbolicName>
 		<wrapped.groupId>io.netty</wrapped.groupId>
