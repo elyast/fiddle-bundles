@@ -7,14 +7,14 @@
         <version>0.0.1</version>
         <relativePath>../bundle.parent/pom.xml</relativePath>
     </parent>
-	<artifactId>net.databinder.dispatch.jsoup_2.11</artifactId>
+	<artifactId>net.databinder.dispatch.jsoup_${scala.suffix}</artifactId>
 	<version>0.11.2</version>
 	<packaging>bundle</packaging>
 	<name>${bundle.symbolicName}</name>
 
 	<properties>
 		<wrapped.version>0.11.2</wrapped.version>
-		<wrapped.artifactId>dispatch-jsoup_2.11</wrapped.artifactId>
+		<wrapped.artifactId>dispatch-jsoup_${scala.suffix}</wrapped.artifactId>
 		<bundle.symbolicName>net.databinder.dispatch.jsoup</bundle.symbolicName>
 		<wrapped.groupId>net.databinder.dispatch</wrapped.groupId>
 	</properties>

@@ -7,7 +7,7 @@
         <version>0.0.1</version>
         <relativePath>../bundle.parent/pom.xml</relativePath>
     </parent>
-	<artifactId>org.scalatra.rl_2.10</artifactId>
+	<artifactId>org.scalatra.rl_${scala.suffix}</artifactId>
 	<version>0.4.10</version>
 	<packaging>bundle</packaging>
 	<name>${bundle.symbolicName}</name>
@@ -22,7 +22,7 @@
 
 	<properties>
 		<wrapped.version>0.4.10</wrapped.version>
-		<wrapped.artifactId>rl_2.10</wrapped.artifactId>
+		<wrapped.artifactId>rl_${scala.suffix}</wrapped.artifactId>
 		<bundle.symbolicName>org.scalatra.rl</bundle.symbolicName>
 		<wrapped.groupId>org.scalatra.rl</wrapped.groupId>      
 	</properties>

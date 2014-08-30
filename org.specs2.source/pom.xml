@@ -7,11 +7,11 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>org.specs2_2.11.source</artifactId>
+	<artifactId>org.specs2_${scala.suffix}.source</artifactId>
 	<version>2.4.1</version>
 	<properties>
 		<wrapped.version>2.4.1</wrapped.version>
-		<wrapped.artifactId>specs2_2.11</wrapped.artifactId>
+		<wrapped.artifactId>specs2_${scala.suffix}</wrapped.artifactId>
 		<bundle.symbolicName>org.specs2</bundle.symbolicName>
 		<wrapped.groupId>org.specs2</wrapped.groupId>
 	</properties>

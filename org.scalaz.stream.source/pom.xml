@@ -7,7 +7,7 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>org.scalaz.stream_2.11.source</artifactId>
+	<artifactId>org.scalaz.stream_${scala.suffix}.source</artifactId>
 	<version>0.5a</version>
 
     <repositories>
@@ -20,7 +20,7 @@
 
 	<properties>
 		<wrapped.version>0.5a</wrapped.version>
-		<wrapped.artifactId>scalaz-stream_2.11</wrapped.artifactId>
+		<wrapped.artifactId>scalaz-stream_${scala.suffix}</wrapped.artifactId>
 		<bundle.symbolicName>org.scalaz.stream</bundle.symbolicName>
 		<wrapped.groupId>org.scalaz.stream</wrapped.groupId>
 	</properties>

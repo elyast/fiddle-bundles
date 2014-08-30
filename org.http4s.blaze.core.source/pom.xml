@@ -7,7 +7,7 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>org.http4s.blaze.core_2.11.source</artifactId>
+	<artifactId>org.http4s.blaze.core_${scala.suffix}.source</artifactId>
 	<version>0.2.0</version>
 
     <repositories>
@@ -25,7 +25,7 @@
         
     <properties>
         <wrapped.version>0.2.0</wrapped.version>
-        <wrapped.artifactId>blaze-core_2.11</wrapped.artifactId>
+        <wrapped.artifactId>blaze-core_${scala.suffix}</wrapped.artifactId>
         <bundle.symbolicName>org.http4s.blaze.core</bundle.symbolicName>
         <wrapped.groupId>org.http4s</wrapped.groupId>      
     </properties>

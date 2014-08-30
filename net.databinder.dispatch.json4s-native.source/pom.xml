@@ -7,11 +7,11 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>net.databinder.dispatch.json4s-native_2.11.source</artifactId>
+	<artifactId>net.databinder.dispatch.json4s-native_${scala.suffix}.source</artifactId>
 	<version>0.11.2</version>
 	<properties>
 		<wrapped.version>0.11.2</wrapped.version>
-		<wrapped.artifactId>dispatch-json4s-native_2.11</wrapped.artifactId>
+		<wrapped.artifactId>dispatch-json4s-native_${scala.suffix}</wrapped.artifactId>
 		<bundle.symbolicName>net.databinder.dispatch.json4s-native</bundle.symbolicName>
 		<wrapped.groupId>net.databinder.dispatch</wrapped.groupId>
 	</properties>

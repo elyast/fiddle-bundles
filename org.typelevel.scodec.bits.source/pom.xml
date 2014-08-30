@@ -7,12 +7,12 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>org.typelevel.scodec.bits_2.10.source</artifactId>
+	<artifactId>org.typelevel.scodec.bits_${scala.suffix}.source</artifactId>
 	<version>1.0.1</version>
 
 	<properties>
 		<wrapped.version>1.0.1</wrapped.version>
-		<wrapped.artifactId>scodec-bits_2.10</wrapped.artifactId>
+		<wrapped.artifactId>scodec-bits_${scala.suffix}</wrapped.artifactId>
 		<bundle.symbolicName>org.typelevel.scodec.bits</bundle.symbolicName>
 		<wrapped.groupId>org.typelevel</wrapped.groupId>
 	</properties>

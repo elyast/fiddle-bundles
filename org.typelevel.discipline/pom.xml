@@ -7,7 +7,7 @@
         <version>0.0.1</version>
         <relativePath>../bundle.parent/pom.xml</relativePath>
     </parent>
-	<artifactId>org.typelevel.discipline_2.10</artifactId>
+	<artifactId>org.typelevel.discipline_${scala.suffix}</artifactId>
 	<version>0.2.1</version>
 	<packaging>bundle</packaging>
 	<name>${bundle.symbolicName}</name>
@@ -22,7 +22,7 @@
 
 	<properties>
 		<wrapped.version>0.2.1</wrapped.version>
-		<wrapped.artifactId>discipline_2.10</wrapped.artifactId>
+		<wrapped.artifactId>discipline_${scala.suffix}</wrapped.artifactId>
 		<bundle.symbolicName>org.typelevel.discipline</bundle.symbolicName>
 		<wrapped.groupId>org.typelevel</wrapped.groupId>      
 	</properties>

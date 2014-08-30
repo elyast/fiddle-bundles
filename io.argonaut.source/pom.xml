@@ -7,11 +7,11 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>io.argonaut_2.11.source</artifactId>
+	<artifactId>io.argonaut_${scala.suffix}.source</artifactId>
 	<version>6.1.M4</version>
 	<properties>
 		<wrapped.version>6.1-M4</wrapped.version>
-		<wrapped.artifactId>argonaut_2.11</wrapped.artifactId>
+		<wrapped.artifactId>argonaut_${scala.suffix}</wrapped.artifactId>
 		<bundle.symbolicName>io.argonaut</bundle.symbolicName>
 		<wrapped.groupId>io.argonaut</wrapped.groupId>
 	</properties>

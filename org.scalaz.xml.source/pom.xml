@@ -7,11 +7,11 @@
 		<version>0.0.1</version>
 		<relativePath>../source.bundle.parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>org.scalaz.xml_2.11.source</artifactId>
+	<artifactId>org.scalaz.xml_${scala.suffix}.source</artifactId>
 	<version>7.1.0</version>
 	<properties>
 		<wrapped.version>7.1.0</wrapped.version>
-		<wrapped.artifactId>scalaz-xml_2.11</wrapped.artifactId>
+		<wrapped.artifactId>scalaz-xml_${scala.suffix}</wrapped.artifactId>
 		<bundle.symbolicName>org.scalaz.xml</bundle.symbolicName>
 		<wrapped.groupId>org.scalaz</wrapped.groupId>
 	</properties>

@@ -6,7 +6,8 @@
 	<version>0.0.1</version>
 	<packaging>pom</packaging>
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <scala.suffix>2.11</scala.suffix>  
 	</properties>
 
 	<repositories>	
@@ -57,16 +58,28 @@
         <module>net.iharder.base64.source</module>
         <module>org.eclipse.jetty.npn.api</module>
         <module>org.eclipse.jetty.npn.api.source</module>
-        <module>org.http4s.blaze</module>
-        <module>org.http4s.blaze.source</module>
+        <module>org.http4s.argonaut</module>
+        <module>org.http4s.argonaut.source</module>        
         <module>org.http4s.blaze.core</module>
         <module>org.http4s.blaze.core.source</module>
         <module>org.http4s.blaze.http</module>
-        <module>org.http4s.blaze.http.source</module>        
+        <module>org.http4s.blaze.http.source</module> 
+        <module>org.http4s.blazeclient</module>
+        <module>org.http4s.blazeclient.source</module>  
+        <module>org.http4s.blazecore</module>
+        <module>org.http4s.blazecore.source</module>  
+        <module>org.http4s.blazeserver</module>
+        <module>org.http4s.blazeserver.source</module>                             
         <module>org.http4s.core</module>
         <module>org.http4s.core.source</module>
         <module>org.http4s.dsl</module>
         <module>org.http4s.dsl.source</module>
+        <module>org.http4s.json4s</module>
+        <module>org.http4s.json4s.native</module>
+        <module>org.http4s.json4s.native.source</module>        
+        <module>org.http4s.json4s.source</module> 
+        <module>org.http4s.server</module>
+        <module>org.http4s.server.source</module>               
         <module>org.jboss.netty.source</module>        
         <module>org.joda.convert.source</module>
         <module>org.json4s.ast</module>
